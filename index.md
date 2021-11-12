@@ -1139,3 +1139,36 @@ Example:
 ```html
     <span data-cms-slug="/custom-url"></span>
 ```
+
+- [Sitemap Properties](#sitemap-properties)
+  - [data-cms-sitemap-priority](#data-cms-sitemap-priority)
+  - [data-cms-sitemap-frequency](#data-cms-sitemap-frequency)
+  - [data-cms-sitemap-lastmod](#data-cms-sitemap-lastmod)
+- [data-cms-viewport="true"](#data-cms-viewport-true)
+- [data-cms-dimensions](#data-cms-dimensions)
+- [data-cms-purge](#data-cms-purge)
+- [data-cms-disabled](#data-cms-disabled)
+
+### Sitemap Properties <a name="sitemap-properties"></a>
+
+#### data-cms-sitemap-priority <a name="data-cms-sitemap-priority"></a>
+- This is a system and <strong>optional</strong> attribute used by the CMS for defining the priority of a page in the sitemap.
+
+#### data-cms-sitemap-frequency <a name="data-cms-sitemap-frequency"></a>
+- This is a system and <strong>optional</strong> attribute used by the CMS for defining the frequency of a page in the sitemap.
+
+#### data-cms-sitemap-lastmod <a name="data-cms-sitemap-lastmod"></a>
+- This is a system and <strong>optional</strong> attribute used by the CMS for defining the last modified date of a page in the sitemap.
+
+### data-cms-viewport="true" <a name="data-cms-viewport-true"></a>
+- This is an attribute assigned to ```<img>``` tag to avoid lazyloading the image that are in viewport to increase page speed.
+
+### data-cms-dimensions <a name="data-cms-dimensions"></a>
+- This is an attribute assigned to ```<img>``` tag to assign a manual dimension to the image to optimize it during the page load.
+
+### data-cms-purge <a name="data-cms-purge"></a>
+- When a tag is assigned this attribute it is removed from the page on live version
+
+### data-cms-disabled <a name="data-cms-disabled"></a>
+- same as [data-cms-purge](#data-cms-purge).
+
